@@ -64,36 +64,40 @@ const Header = () => {
             </svg>
           </button>
           {/* Navigation Links */}
-          <nav
-            className={`${
-              isMenuOpen ? 'block' : 'hidden'
-            } md:flex space-x-8 absolute md:static bg-white md:bg-transparent top-16 left-0 w-full md:w-auto shadow-md md:shadow-none`}
-          >
-            <Link
-              to="/"
-              className="block md:inline-block px-4 py-2 text-gray-700 hover:text-green-600 transition-colors"
-            >
-              Home
-            </Link>
-            <Link
-              to="/services"
-              className="block md:inline-block px-4 py-2 text-gray-700 hover:text-green-600 transition-colors"
-            >
-              Services
-            </Link>
-            <Link
-              to="/about"
-              className="block md:inline-block px-4 py-2 text-gray-700 hover:text-green-600 transition-colors"
-            >
-              About
-            </Link>
-            <Link
-              to="/contact"
-              className="block md:inline-block px-4 py-2 text-gray-700 hover:text-green-600 transition-colors"
-            >
-              Contact
-            </Link>
-          </nav>
+<nav
+  className={`${
+    isMenuOpen ? 'block' : 'hidden'
+  } md:flex space-x-8 absolute md:static bg-white md:bg-transparent top-16 left-0 w-full md:w-auto shadow-md md:shadow-none`}
+>
+  <Link
+    to="/"
+    className="block md:inline-block px-4 py-2 text-gray-700 hover:text-green-600 transition-colors"
+    onClick={() => setIsMenuOpen(false)}
+  >
+    Home
+  </Link>
+  <Link
+    to="/services"
+    className="block md:inline-block px-4 py-2 text-gray-700 hover:text-green-600 transition-colors"
+    onClick={() => setIsMenuOpen(false)}
+  >
+    Services
+  </Link>
+  <Link
+    to="/about"
+    className="block md:inline-block px-4 py-2 text-gray-700 hover:text-green-600 transition-colors"
+    onClick={() => setIsMenuOpen(false)}
+  >
+    About
+  </Link>
+  <Link
+    to="/contact"
+    className="block md:inline-block px-4 py-2 text-gray-700 hover:text-green-600 transition-colors"
+    onClick={() => setIsMenuOpen(false)}
+  >
+    Contact
+  </Link>
+</nav>
         </div>
       </div>
     </header>
