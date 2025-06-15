@@ -30,7 +30,7 @@ const About = () => {
 
   const team = [
     {
-      name: "Priya Sharma",
+      name: "Dinesh Pokhriyal",
       role: "Founder & CEO",
       description: "10+ years in environmental consulting with a passion for sustainable business practices."
     },
@@ -45,8 +45,8 @@ const About = () => {
       description: "Specialist in environmental education and community engagement programs."
     },
     {
-      name: "Vikram Singh",
-      role: "Technology Lead",
+      name: "Shubham Raturi",
+      role: "IT Team Lead",
       description: "Developing innovative solutions to make recycling more accessible and efficient."
     }
   ];

@@ -57,7 +57,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 98765 43210", "+91 98765 43211"],
+      details: ["98107 98391", "+91 98765 43211"],
       color: "text-blue-600"
     },
     {
@@ -69,7 +69,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Green Street", "Mumbai, Maharashtra 400001"],
+      details: ["RK puram", "Delhi,  400001"],
       color: "text-red-600"
     },
     {
