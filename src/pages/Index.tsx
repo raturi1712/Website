@@ -166,22 +166,22 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <Award className="h-12 w-12 mx-auto mb-4" />
-              <div className="text-4xl font-bold mb-2">50,000+</div>
+              <div className="text-4xl font-bold mb-2">5,000+</div>
               <div className="text-lg">Tons Recycled</div>
             </div>
             <div>
               <Users className="h-12 w-12 mx-auto mb-4" />
-              <div className="text-4xl font-bold mb-2">10,000+</div>
+              <div className="text-4xl font-bold mb-2">100+</div>
               <div className="text-lg">Happy Customers</div>
             </div>
             <div>
               <Building className="h-12 w-12 mx-auto mb-4" />
-              <div className="text-4xl font-bold mb-2">500+</div>
+              <div className="text-4xl font-bold mb-2">20+</div>
               <div className="text-lg">Corporate Partners</div>
             </div>
             <div>
               <Leaf className="h-12 w-12 mx-auto mb-4" />
-              <div className="text-4xl font-bold mb-2">₹2.5M+</div>
+              <div className="text-4xl font-bold mb-2">₹1.2M+</div>
               <div className="text-lg">Rewards Distributed</div>
             </div>
           </div>
