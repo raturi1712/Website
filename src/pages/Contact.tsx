@@ -253,14 +253,14 @@ const Contact = () => {
                     Currently serving 15+ cities across India with plans to expand nationwide.
                   </p>
                   <div className="grid grid-cols-2 gap-2 text-sm text-gray-600">
-                    <div>• Mumbai</div>
-                    <div>• Delhi</div>
-                    <div>• Bangalore</div>
+                                        <div>• Delhi</div>
+                    <div>• Dehradun</div>
+                    {/* <div>• Bangalore</div>
                     <div>• Pune</div>
                     <div>• Chennai</div>
                     <div>• Hyderabad</div>
                     <div>• Kolkata</div>
-                    <div>• Ahmedabad</div>
+                    <div>• Ahmedabad</div> */}
                   </div>
                   <p className="text-sm text-gray-500 mt-3">
                     Don't see your city? Contact us to discuss expansion opportunities.

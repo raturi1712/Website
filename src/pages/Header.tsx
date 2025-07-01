@@ -28,9 +28,10 @@
 
 // export default Header
 import { Button } from '@/components/ui/button';
-import { Recycle } from 'lucide-react';
+import { Leaf, Recycle } from 'lucide-react';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,8 +41,8 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <Recycle className="h-8 w-8 text-green-600" />
-            <h1 className="text-2xl font-bold text-gray-900">GreenoBin</h1>
+            <Leaf className="h-8 w-8 text-green-600" />
+            <h1 className="text-2xl font-bold text-gray-900">GreenHeap</h1>
           </div>
           {/* Hamburger Menu Button */}
           <button
